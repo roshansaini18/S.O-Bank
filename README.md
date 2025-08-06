@@ -73,8 +73,9 @@ This project leverages a modern technology stack for a robust and scalable appli
 | **Deployment** | **Netlify** (Frontend), **Render** (Backend)                                                                  |
 
 ### **Architecture Diagram**
+### Architecture Diagram
 <div align="center">
-  <img src="https://i.imgur.com/uV5o27p.png" alt="MERN Stack Architecture Diagram" width="700">
+  <img src="https://i.imgur.com/uV5o27p.png" alt="Stack Overflow Bank Architecture Diagram" width="700">
 </div>
 
 ---
