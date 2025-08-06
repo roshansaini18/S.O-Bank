@@ -1,150 +1,171 @@
-# [Stack Overflow Bank] 🏦
+<div align="center">
+  <img src="https://placehold.co/600x300/0055A5/FFFFFF?text=Stack+Overflow+Bank&font=raleway" alt="Stack Overflow Bank Banner">
+  <h1><b>Stack Overflow Bank</b></h1>
+  <p>A secure, full-featured, and modern MERN stack banking application designed for seamless financial management.</p>
+  
+  <p>
+    <a href="https://github.com/your-username/your-repo/actions/workflows/node.js.yml"><img src="https://github.com/your-username/your-repo/actions/workflows/node.js.yml/badge.svg" alt="Build Status"></a>
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  </p>
+</div>
 
-[![CI/CD Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/[your-github-username]/[your-repo-name]/actions)
-[![Code Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)](https://example.com/link-to-coverage-report)
+---
 
-> Modern, Secure, and User-Friendly Banking at Your Fingertips.
+## 🚀 Live Demo
 
-**[Stack Overflow Bank]** is a full-stack, mobile-first banking application designed to provide a seamless and secure user experience. It allows users to manage their accounts, view transaction history, transfer funds, and much more, all from the convenience of their device.
+- **Frontend (Netlify):** `https://your-frontend-app-name.netlify.app/`
+- **Backend (Render):** `https://your-backend-api-name.onrender.com/`
 
-**Disclaimer:** This is a project for portfolio/demonstration purposes and does not connect to real bank accounts or handle real money.
+---
 
-## ✨ Key Features
+## ✨ Project Overview
 
-* **Secure User Authentication:** Secure sign-up and login with JWT (JSON Web Token) and password hashing.
-* **Account Dashboard:** A centralized view of all accounts with current balances.
-* **Transaction History:** Detailed, searchable, and filterable list of all past transactions.
-* **Fund Transfers:** Easily transfer money between your own accounts or to other users of the app.
-* **Profile Management:** Users can view and update their personal information.
-* **Biometric Login:** (Optional) Support for fingerprint or Face ID login for enhanced security and convenience.
-* **Real-time Notifications:** Get instant push notifications for transactions and account alerts.
+**Stack Overflow Bank** is a comprehensive web application that simulates a real-world banking environment. Built on the MERN stack (MongoDB, Express.js, React.js, Node.js), it provides a robust platform for customers, employees, and administrators. The application features role-based access control, secure authentication, and a clean, intuitive user interface powered by Ant Design. From dynamic dashboards with data visualizations to core banking functionalities like account creation and fund transfers, this project showcases a complete end-to-end development cycle, from local setup to cloud deployment.
 
-## 📸 Screenshots
+---
 
-| Login Screen | Dashboard | Transfer Page |
-| :---: | :---: | :---: |
-| ![Login Screen](https://via.placeholder.com/300x600.png?text=Login+Screen) | ![Dashboard](https://via.placeholder.com/300x600.png?text=Dashboard) | ![Transfer Page](https://via.placeholder.com/300x600.png?text=Transfer+Page) |
+## 🔑 Key Features
 
-*(Replace the placeholder images with actual screenshots of your application)*
+The application is segregated into three distinct user panels, each with tailored functionalities.
 
-## 🛠️ Technology Stack & Architecture
+### **👨‍💼 Admin Panel**
 
-This project is built using a modern, robust, and scalable technology stack, chosen specifically to meet the high-security and performance demands of a financial application.
+The Admin has the highest level of authority and oversees the entire banking operation.
+- **Secure Login:** Dedicated login portal for administrators.
+- **Analytical Dashboard:** An interactive dashboard featuring charts and key metrics, such as total transactions, user growth, and branch performance, visualized using `Chart.js`.
+- **Employee Management:** Full CRUD (Create, Read, Update, Delete) functionality for managing bank employees.
+- **Branch Management:** Ability to add new bank branches to the system, expanding the bank's network.
+- **System Configuration:** Manage core application settings like branding and accepted currencies.
 
-* **Frontend:** The mobile application is built with **React Native**, allowing for a single codebase to serve both iOS and Android users. This ensures a consistent user experience across platforms while speeding up development. For state management, we use **Redux Toolkit**, which provides a predictable and centralized state container, essential for managing complex financial data and user sessions.
+### **🧑‍💻 Employee Panel**
 
-* **Backend:** The server-side is powered by **Node.js** and the **Express.js** framework. This choice is based on Node.js's non-blocking, event-driven architecture, making it highly efficient for handling concurrent user requests and real-time operations. The backend exposes a secure **RESTful API** that the mobile client consumes. Security is paramount, with **JSON Web Tokens (JWT)** for authenticating API requests and **bcrypt.js** for securely hashing user passwords.
+Employees are responsible for customer-facing operations and day-to-day banking tasks.
+- **Secure Login:** Dedicated login portal for employees.
+- **Operational Dashboard:** A dashboard summarizing daily tasks and key customer metrics.
+- **Customer Account Creation:** Employees can onboard new customers by creating new bank accounts.
+- **Transaction Management:** Facilitate deposits and withdrawals on behalf of customers, ensuring accurate record-keeping.
 
-* **Database:** For our data persistence layer, we use **PostgreSQL**. It is a powerful, open-source object-relational database system known for its reliability, data integrity, and ACID-compliant transactions, which are non-negotiable features for a banking application.
+### **👤 Customer Panel**
 
-Here is a summary of the core technologies:
+The customer panel provides a seamless and secure digital banking experience.
+- **Secure Login & Authentication:** Uses JSON Web Tokens (JWT) for secure, stateless authentication. Passwords are encrypted using `bcrypt`.
+- **Visual Dashboard:** A personalized dashboard that presents financial summaries through interactive charts. Customers can quickly visualize their credit vs. debit amounts and see their final balance.
+- **Transaction History:** A detailed, paginated, and searchable table of all past transactions, allowing customers to track their spending.
+- **Profile Management:** Customers can view and update their personal information. Profile images are uploaded and managed via **ImageKit.io**.
+- **Payee Management:** A crucial feature allowing customers to add, view, and delete payees (beneficiaries). This makes frequent fund transfers simple and error-free.
+- **Fund Transfers:** A secure form to transfer funds to saved payees.
 
-| Component | Technology |
-| :--- | :--- |
-| **Frontend** | React Native |
-| **State Management** | Redux Toolkit |
-| **Backend** | Node.js with Express.js |
-| **Database** | PostgreSQL |
-| **Authentication** | JWT, bcrypt.js |
-| **API Testing** | Postman |
-| **Testing** | Jest, React Testing Library |
-| **Containerization**| Docker |
+---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack & Architecture
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+This project leverages a modern technology stack for a robust and scalable application.
 
-### Prerequisites
+| Category          | Technology                                                                                                  |
+| ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Frontend** | `React.js`, `React Router`, `Ant Design`, `SWR`, `Chart.js`, `Axios`                                          |
+| **Backend** | `Node.js`, `Express.js`                                                                                     |
+| **Database** | `MongoDB` (hosted on **MongoDB Atlas**)                                                                     |
+| **Authentication**| `JSON Web Tokens (JWT)`, `bcrypt.js`, `universal-cookie`                                                      |
+| **Image Storage** | **ImageKit.io** (for profile pictures and other assets)                                                       |
+| **Deployment** | **Netlify** (Frontend), **Render** (Backend)                                                                  |
 
-You need to have the following software installed on your machine:
-* [Node.js](https://nodejs.org/) (v18.x or later)
-* [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-* [Git](https://git-scm.com/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Docker](https://www.docker.com/) (Optional, for containerized setup)
+### **Architecture Diagram**
+<div align="center">
+  <img src="https://i.imgur.com/uV5o27p.png" alt="MERN Stack Architecture Diagram" width="700">
+</div>
 
-### Installation
+---
 
-1.  **Clone the repository**
-    ```sh
-    git clone [https://github.com/](https://github.com/)[your-github-username]/[your-repo-name].git
-    cd [your-repo-name]
+## ⚙️ Getting Started (Local Setup)
+
+To run this project on your local machine, follow these steps.
+
+### **Prerequisites**
+- Node.js (v16 or later)
+- npm & Git
+- A MongoDB Atlas account
+- An ImageKit.io account
+
+### **Installation & Setup**
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+    cd your-repo
     ```
 
-2.  **Backend Setup**
-    ```sh
+2.  **Setup Backend (`server` directory):**
+    ```bash
     cd server
     npm install
     ```
-    Create a `.env` file in the `server` directory and add the following environment variables:
+    Create a `.env` file in the `server` directory and add the following variables:
     ```env
-    PORT=5000
-    DATABASE_URL="postgresql://[USER]:[PASSWORD]@localhost:5432/[DATABASE_NAME]"
-    JWT_SECRET="your_super_secret_jwt_key"
-    ```
-    Run database migrations and start the server:
-    ```sh
-    npm run db:migrate
-    npm run start
+    MONGO_URI="your_mongodb_atlas_connection_string"
+    JWT_SECRET="your_strong_jwt_secret_key"
+    IMAGEKIT_PUBLIC_KEY="your_imagekit_public_key"
+    IMAGEKIT_PRIVATE_KEY="your_imagekit_private_key"
+    IMAGEKIT_URL_ENDPOINT="your_imagekit_url_endpoint"
     ```
 
-3.  **Frontend Setup**
-    ```sh
+3.  **Setup Frontend (`client` directory):**
+    ```bash
     cd ../client
     npm install
     ```
-    Create a `.env` file in the `client` directory and add your backend API URL:
+    Create a `.env` file in the `client` directory and add the following variable:
     ```env
-    API_BASE_URL=http://localhost:5000/api
-    ```
-    Start the client application (for iOS or Android):
-    ```sh
-    npm run ios
-    # or
-    npm run android
+    REACT_APP_API_URL="http://localhost:5000" # Or your backend server port
     ```
 
-## 🧪 Running Tests
+4.  **Run the Application:**
+    - **Run the backend server:** From the `server` directory, run:
+      ```bash
+      npm start
+      ```
+    - **Run the frontend application:** From the `client` directory, run:
+      ```bash
+      npm start
+      ```
 
-To run the automated tests for this system, use the following commands:
+The application should now be running on `http://localhost:3000`.
 
-* **Backend Tests:**
-    ```sh
-    cd server
-    npm test
-    ```
-* **Frontend Tests:**
-    ```sh
-    cd client
-    npm test
-    ```
+---
 
-## API Reference
+## 📸 Screenshots
 
-The application exposes a RESTful API for all its operations.
+| Login Page                               | Customer Dashboard                         |
+| ---------------------------------------- | ------------------------------------------ |
+| ![Login Page](https://i.imgur.com/gO8g4hL.png) | ![Customer Dashboard](https://i.imgur.com/9yL8b4s.png) |
 
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| `POST` | `/api/auth/register` | Register a new user. |
-| `POST` | `/api/auth/login` | Log in a user and return a JWT. |
-| `GET` | `/api/accounts` | Get all accounts for the logged-in user. |
-| `GET` | `/api/accounts/:id/transactions` | Get transaction history for a specific account. |
-| `POST` | `/api/transfers` | Initiate a fund transfer. |
+| Transaction History                      | Admin - Employee Management                |
+| ---------------------------------------- | ------------------------------------------ |
+| ![Transaction History](https://i.imgur.com/3Zc6x7j.png) | ![Admin Dashboard](https://i.imgur.com/aB1d2cE.png) |
 
-For detailed API documentation, please refer to our [Postman Collection](link-to-your-api-docs).
+---
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/YourAmazingFeature`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -m 'Add some YourAmazingFeature'`).
+5.  Push to the branch (`git push origin feature/YourAmazingFeature`).
+6.  Open a Pull Request.
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+---
 
-## 📧 Contact
+## 📜 License
 
-[Your Name] - [@your_twitter_handle](https://twitter.com/your_twitter_handle) - [youremail@example.com]
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Project Link: [https://github.com/[your-github-username]/[your-repo-name]](https://github.com/[your-github-username]/[your-repo-name])
+---
+
+<div align="center">
+  Made with ❤️ by [Your Name]
+</div>
