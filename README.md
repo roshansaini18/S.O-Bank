@@ -146,7 +146,7 @@ The application should now be running on `http://localhost:3000`.
 
 | Login Page                               | Customer Dashboard                         |
 | ---------------------------------------- | ------------------------------------------ |
-| ![Login Page](https://i.imgur.com/gO8g4hL.png) | ![Customer Dashboard](https://i.imgur.com/9yL8b4s.png) |
+| ![Login Page](https://i.imgur.com/gO8g4hL.png) | 
 
 | Transaction History                      | Admin - Employee Management                |
 | ---------------------------------------- | ------------------------------------------ |
