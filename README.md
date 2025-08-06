@@ -174,5 +174,5 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 
 <div align="center">
   <h3>Made with ❤️ by ROSHAN SAINI</h3>
-  <a href="https://github.com/roshansaini18">GitHub</a> | <a href="https://www.linkedin.com/in/your-linkedin-profile/">LinkedIn</a>
+  <a href="https://github.com/roshansaini18">GitHub</a> | <a href="https://www.linkedin.com/in/roshan-saini-6a2000260/">LinkedIn</a>
 </div>
