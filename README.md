@@ -142,11 +142,14 @@ The application should now be running on `http://localhost:3000`.
 
 ---
 
+
+
 ## 📸 Screenshots
 
 | Login Page                               | Customer Dashboard                         |
 | ---------------------------------------- | ------------------------------------------ |
-| ![Login Page](https://i.imgur.com/gO8g4hL.png) | 
+| ![Login Page](https://i.imgur.com/gO8g4hL.png) | <img width="1908" height="871" alt="Screenshot 2025-08-06 221713" src="https://github.com/user-attachments/assets/e73d4bfe-d7ff-49b2-8a86-5d0dc823deb3" />
+
 
 | Transaction History                      | Admin - Employee Management                |
 | ---------------------------------------- | ------------------------------------------ |
