@@ -148,12 +148,14 @@ The application should now be running on `http://localhost:3000`.
 
 | Login Page                               | Customer Dashboard                         |
 | ---------------------------------------- | ------------------------------------------ |
-| ![Login Page](https://i.imgur.com/gO8g4hL.png) | <img width="1908" height="871" alt="Screenshot 2025-08-06 221713" src="https://github.com/user-attachments/assets/e73d4bfe-d7ff-49b2-8a86-5d0dc823deb3" />
+| <img width="1863" height="865" alt="Screenshot 2025-08-06 222637" src="https://github.com/user-attachments/assets/9380e0df-740d-4654-a814-5d7580d9cf73" />
+ | <img width="1908" height="871" alt="Screenshot 2025-08-06 221713" src="https://github.com/user-attachments/assets/e73d4bfe-d7ff-49b2-8a86-5d0dc823deb3" />
 
 
 | Transaction History                      | Admin - Employee Management                |
 | ---------------------------------------- | ------------------------------------------ |
-| ![Transaction History](https://i.imgur.com/3Zc6x7j.png) | ![Admin Dashboard](https://i.imgur.com/aB1d2cE.png) |
+|<img width="1865" height="841" alt="Screenshot 2025-08-06 221727" src="https://github.com/user-attachments/assets/7c765164-9085-4c9d-981b-8c208711ab08" />
+ | ![Admin Dashboard](https://i.imgur.com/aB1d2cE.png) |
 
 ---
 
