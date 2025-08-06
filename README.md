@@ -146,10 +146,10 @@ The application should now be running on `http://localhost:3000`.
 
 ## 📸 Screenshots
 
-| Login Page                                                                             |
-| <img width="1863" height="865" alt="Screenshot 2025-08-06 222637" src="https://github.com/user-attachments/assets/9380e0df-740d-4654-a814-5d7580d9cf73" />|
-| Customer Dashboard                                                                    |
-| <img width="1908" height="871" alt="Screenshot 2025-08-06 221713" src="https://github.com/user-attachments/assets/e73d4bfe-d7ff-49b2-8a86-5d0dc823deb3" />|
+ Login Page                                                                             
+ <img width="1863" height="865" alt="Screenshot 2025-08-06 222637" src="https://github.com/user-attachments/assets/9380e0df-740d-4654-a814-5d7580d9cf73" />
+Customer Dashboard                                                                    
+ <img width="1908" height="871" alt="Screenshot 2025-08-06 221713" src="https://github.com/user-attachments/assets/e73d4bfe-d7ff-49b2-8a86-5d0dc823deb3" />
 
 | Transaction History                      | Admin - Employee Management                |
 | ---------------------------------------- | ------------------------------------------ |
